@@ -1,0 +1,15 @@
+/Users/nassimsimohammed/Projects/Exo1/Exo1/bin/Debug/net7.0/Exo1
+/Users/nassimsimohammed/Projects/Exo1/Exo1/bin/Debug/net7.0/Exo1.deps.json
+/Users/nassimsimohammed/Projects/Exo1/Exo1/bin/Debug/net7.0/Exo1.runtimeconfig.json
+/Users/nassimsimohammed/Projects/Exo1/Exo1/bin/Debug/net7.0/Exo1.dll
+/Users/nassimsimohammed/Projects/Exo1/Exo1/bin/Debug/net7.0/Exo1.pdb
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.csproj.AssemblyReference.cache
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.AssemblyInfoInputs.cache
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.AssemblyInfo.cs
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.csproj.CoreCompileInputs.cache
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.dll
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/refint/Exo1.dll
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.pdb
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/Exo1.genruntimeconfig.cache
+/Users/nassimsimohammed/Projects/Exo1/Exo1/obj/Debug/net7.0/ref/Exo1.dll
