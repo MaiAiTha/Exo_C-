@@ -43,6 +43,16 @@ namespace TP1
         {
             return "Titre :" + this.titre + " par : " + this.nom + ' zone : ' + this.zone + ",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
         }
+
+        public void setZone(int zone)
+        {
+            this.zone = zone;
+        }
+
+        public int getZone()
+        {
+            return this.zone;
+        }
     }
 
 

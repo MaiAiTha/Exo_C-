@@ -30,6 +30,16 @@ namespace TP1
             return "Titre :" + this.titre + " par : " + this.nom + '[' + this.categorie + ']' +",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
         }
 
+        public void setCategorie(string categorie)
+        {
+            this.categorie = categorie;
+        }
+
+        public string getCategorie()
+        {
+            return this.categorie;
+        }
+
     }
 }
 
