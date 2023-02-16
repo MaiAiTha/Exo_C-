@@ -1,28 +1,39 @@
 ﻿<Properties StartupConfiguration="{A31F8054-06A7-4843-82F1-B267990BBD9A}|Default">
-  <MonoDevelop.Ide.ItemProperties.Exo2 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Exo1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Exo2 FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Exo4 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Exo3 FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exo1/Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Exo4 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TP1 FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exo4/Student.cs">
     <Files>
-      <File FileName="Exo1/Program.cs" Line="18" Column="1" />
-      <File FileName="Exo1/Vectors2D.cs" Line="31" Column="52" />
-      <File FileName="Exo1/Vectors3D.cs" Line="26" Column="1" />
+      <File FileName="Exo1/Program.cs" Line="29" Column="32" />
+      <File FileName="Exo1/Vectors2D.cs" Line="6" Column="2" />
+      <File FileName="Exo1/Vectors3D.cs" Line="19" Column="31" />
+      <File FileName="Exo2/Program.cs" Line="28" Column="1" />
+      <File FileName="Exo2/Person.cs" Line="31" Column="117" />
+      <File FileName="Exo2/Employee.cs" Line="10" Column="12" />
+      <File FileName="Exo2/Manager.cs" Line="4" Column="18" />
+      <File FileName="Exo2/Director.cs" Line="12" Column="7" />
+      <File FileName="Exo3/Program.cs" Line="1" Column="1" />
+      <File FileName="Exo3/Employee.cs" Line="26" Column="87" />
+      <File FileName="Exo3/Worker.cs" Line="26" Column="1" />
+      <File FileName="Exo3/Boss.cs" Line="18" Column="3" />
+      <File FileName="Exo4/Program.cs" Line="1" Column="1" />
+      <File FileName="Exo4/Student.cs" Line="34" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Exo1">
-            <Node name="Exo1">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+          <Node name="Exo1" expanded="True" selected="True">
+            <Node name="Exo2" expanded="True" />
+            <Node name="Exo4" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
