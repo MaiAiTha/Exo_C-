@@ -1,15 +1,15 @@
 ﻿using System;
 namespace TP1
 {
-	public class Livre : Media
+    public class Livre : Media
     {
 
-		public Livre(String titre, String nom, DateTime date) : base( titre,  nom,  date)
-		{
-			
-		}
+        public Livre(string titre, string nom, DateTime date) : base(titre, nom, date)
+        {
 
-		
-	}
+        }
+
+
+    }
 }
 
