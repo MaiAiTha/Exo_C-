@@ -22,7 +22,7 @@ namespace TP1
             this.zone = dvd.zone;
         }
 
-
+        //Return true si une zone du tableau est égal à celle en paramètre du DVD, return false & une exception si la zone est invalide.
         public bool readable(int[] zones)
         {
                 for (int i=0; i < zones.Length; i++)
@@ -38,12 +38,14 @@ namespace TP1
             return false;
         }
 
-
+        // Ajout zone
         public override string ToString()
         {
-            return "Titre :" + this.titre + " par : " + this.nom + ' zone : ' + this.zone + ",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
+            return "Titre :" + this.titre + " par : " + this.nom + " zone : " + this.zone + ",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
         }
 
+
+        //Getter Setter
         public void setZone(int zone)
         {
             this.zone = zone;

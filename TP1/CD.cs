@@ -9,6 +9,7 @@ namespace TP1
         {
         }
 
+        //Constructeur qui throw une exception si la catégorie entré n'est pas une voulue.
         public CD(string titre, string nom, DateTime date,string categorie) : base( titre,  nom,  date)
 		{
             this.categorie = categorie;
@@ -25,11 +26,14 @@ namespace TP1
             this.categorie = cd.categorie;
         }
 
+        // Ajout categorie
         public override string ToString()
         {
-            return "Titre :" + this.titre + " par : " + this.nom + '[' + this.categorie + ']' +",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
+            return "Titre :" + this.titre + " par : " + this.nom + "[" + this.categorie + "]" +",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
         }
 
+
+        //Getter & Setter
         public void setCategorie(string categorie)
         {
             this.categorie = categorie;
