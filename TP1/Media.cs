@@ -3,9 +3,13 @@ namespace TP1
 {
     public class Media
     {
-        protected string titre;
-        protected string nom;
+        protected string titre ="";
+        protected string nom ="";
         protected DateTime date;
+
+        public Media()
+        {
+        }
 
         public Media(string Titre, string Nom, DateTime Date)
         {

@@ -5,10 +5,23 @@ namespace TP1
     {
 		protected int zone;
 
-		public DVD(string titre, string nom, DateTime date,int zone) : base( titre,  nom,  date)
+        public DVD() : base()
+        {
+        }
+
+        public DVD(string titre, string nom, DateTime date,int zone) : base( titre,  nom,  date)
 		{
 			this.zone = zone;
 		}
+
+        public DVD(DVD dvd) : base()
+        {
+            base.titre = dvd.titre;
+            base.nom = dvd.nom;
+            base.date = dvd.date;
+            this.zone = dvd.zone;
+        }
+
 
         public bool readable(int[] zones)
         {
@@ -24,7 +37,14 @@ namespace TP1
             
             return false;
         }
+
+
+        public override string ToString()
+        {
+            return "Titre :" + this.titre + " par : " + this.nom + ' zone : ' + this.zone + ",  date : jours : " + date.Day + " mois " + date.Month + " Annee : " + date.Year;
+        }
     }
+
 
 }
 

@@ -14,6 +14,11 @@ namespace TP1
         public CategorieInvalideException(string message, Exception innerException) : base(message, innerException)
         {
         }
+
+        public CategorieInvalideException(CategorieInvalideException ex) 
+        {
+        }
+
     }
 }
 

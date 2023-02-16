@@ -14,6 +14,10 @@ namespace TP1
         public ZoneInvalideException(string message, Exception innerException) : base(message, innerException)
         {
         }
+
+        public ZoneInvalideException(ZoneInvalideException ex)
+        {
+        }
     }
 
 }
